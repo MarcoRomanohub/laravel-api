@@ -17,7 +17,7 @@ return [
 
     'paths' => ['api/*', 'sanctum/csrf-cookie'],
 
-    'allowed_methods' => [env('APP_FRONTEND_URL', 'www.miositoprojects.com')],
+    'allowed_methods' => [env('APP_FRONTEND_URL', 'http://localhost:5173')],
 
     'allowed_origins' => ['*'],
 
